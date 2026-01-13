@@ -127,10 +127,7 @@ No explanations. No suggestions. No meta text."""
 
 # OpenRouter API configuration
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-2.0-flash-exp:free"
-MAX_TOKENS = 2048
-TEMPERATURE = 0.3
-REQUEST_TIMEOUT = 60
+MODEL = "allenai/molmo-2-8b:free"
 
 
 class handler(BaseHTTPRequestHandler):
