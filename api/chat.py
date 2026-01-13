@@ -128,7 +128,9 @@ No explanations. No suggestions. No meta text."""
 # OpenRouter API configuration
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "allenai/molmo-2-8b:free"
-
+MAX_TOKENS = 2048
+TEMPERATURE = 0.3
+REQUEST_TIMEOUT = 60
 
 class handler(BaseHTTPRequestHandler):
     """HTTP request handler for the chat API endpoint"""
